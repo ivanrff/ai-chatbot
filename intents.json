@@ -1,0 +1,28 @@
+{"intents": [
+    {"tag": "saudação",
+     "patterns": ["Olá", "Como você está", "Tem alguém aí?", "Oi", "Bom dia", "Boa tarde", "Boa noite"],
+     "responses": ["Olá, obrigado pela visita", "É um prazer te ter aqui", "Oi, posso ajudá-lo?"],
+     "context_set": ""
+    },
+    {"tag": "despedida",
+     "patterns": ["Tchau", "Até mais", "Beijos", "Fui", "Adeus"],
+     "responses": ["Te vejo mais tarde", "Tenha um belo dia", "Até mais, espero que volte."]
+    },
+    {"tag": "agradecimento",
+     "patterns": ["Obrigado", "Valeu", "Isso foi útil"],
+     "responses": ["Que bom que pude ajudar", "De nada", "O prazer é todo meu"]
+    },
+    {"tag": "horas",
+     "patterns": ["Que horas vocês abrem?", "Quais são as suas horas?", "Quando você está aberto?" ],
+     "responses": ["Estamos abertos todos os dias das 9h às 21h", "Nosso horário é das 9h às 21h todos os dias"]
+    },
+    {"tag": "pagamento",
+     "patterns": ["Vocês aceitam cartão de crédito?", "Você aceita MasterCard?", "Você é apenas em dinheiro?" ],
+     "responses": ["Aceitamos VISA, Mastercard e AMEX", "Aceitamos os principais cartões de crédito"]
+    },
+    {"tag": "abertohoje",
+     "patterns": ["Está aberto hoje?", "Quando você abre hoje?", "Qual é o seu horário hoje?"],
+     "responses": ["Estamos abertos todos os dias das 9h às 21h", "Nosso horário é das 9h às 21h todos os dias"]
+    }
+]
+}
